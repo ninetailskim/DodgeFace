@@ -1,6 +1,4 @@
 paddlepaddle
 paddlehub
-visualdl
-paddleseg
-paddlenlp
-paddleocr
+opencv-python
+numpy
