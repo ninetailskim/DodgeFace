@@ -21,4 +21,4 @@
 
 ## 链接：
 ### [AiStudio](https://aistudio.baidu.com/aistudio/projectdetail/1609763) 
-### [B站]()
+### [B站](https://www.bilibili.com/video/BV17p4y1H7G9/)
