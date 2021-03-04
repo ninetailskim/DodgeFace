@@ -224,9 +224,9 @@ def main():
                         showimg = frame * currentSeg3 + showimg * (1 - currentSeg3)
                         gameover = ball_manager()
                         showimg = showimg.astype(np.uint8)
-                        showimg = cv2.putText(showimg, "Pixel: " + str(sumSeg)+" Time:%2f: "% (time.time() - startTime), (0, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,0), 3)
+                        showimg = cv2.putText(showimg, "Pixel: " + str(sumSeg)+" Time: %2f"% (time.time() - startTime), (0, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,0), 3)
                         if gameover:
-                            showimg = cv2.putText(showimg, "You Lose! Time:%2f:" % (time.time() - startTime), (0, int(H/2)), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 3)
+                            showimg = cv2.putText(showimg, "You Lose! Time: %2f" % (time.time() - startTime), (0, int(H/2)), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 3)
                             cv2.imshow('Game', showimg)
                             if cv2.waitKey(0) == ord('r'):
                                 restart = True
